@@ -8,3 +8,6 @@ function changeColor() {
   newColor.css('backgroundColor', color);
   localStorage.setItem("newColor", color);
 }
+
+$(".color-here").css('backgroundColor', localStorage.getItem("newColor"))
+
