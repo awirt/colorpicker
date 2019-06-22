@@ -1,5 +1,6 @@
 var newColor = $('.color-here');
 var changeColorBtn = $('.change-color');
+var deleteBtn = $('.delete-color');
 
 changeColorBtn.on("click", changeColor);
 
